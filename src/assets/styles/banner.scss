@@ -1,0 +1,39 @@
+.textstart{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 3em;
+    letter-spacing: 0.005em;
+    color: #002265;
+}
+.textcenter{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 1.5em;
+    letter-spacing: 0.005em;
+    color: #002265;
+}
+.textend{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 2em;
+    letter-spacing: 0.015em;
+    color: #082032;
+}
+
+@media only screen and (max-width: 576px) {
+    .textstart {
+        font-size: 1em;
+    }
+    .textcenter {
+        font-size: 1em;
+    }
+    .textend {
+        font-size: 1em;
+    }
+}

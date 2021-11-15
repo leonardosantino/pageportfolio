@@ -1,0 +1,50 @@
+.firstname{
+ 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 2em;
+    letter-spacing: 0.205em;
+    color: #002265;
+}
+.lastname{
+ 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 2em;
+    letter-spacing: 0.205em;
+    color: #14279B;
+}
+
+.nav-link {
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 2em;
+    letter-spacing: 0.055em;
+    color:#212121;
+}
+.btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: .75em;
+    line-height: 2em;
+    letter-spacing: 0.055em;
+    background: #608AF5;
+    border-radius: .5em;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 768px) {
+    .firstname {
+        font-size: .75em;
+    }
+    .lastname {
+        font-size: .75em;
+    }
+}
